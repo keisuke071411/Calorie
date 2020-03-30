@@ -1,54 +1,95 @@
 .section_home{
     width: 100%;
     background: #F7D7FA;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 480px) {
+    .section_home{
+        height: 736px;
+    }
 }
 
 .section_home-top{
     width: 100%;
-    height: 100px;
+    height: 150px;
     background: #F7D7FA;
 }
 
 .insta_box{
-    width: 18%;
+    width: 260px;
+    height: 70%;
     position: relative;
-    top:20px;
-    float: right;
+    top: 20px;
+    margin: 0 0 0 auto;
     z-index: 10;
+}
 
+@media screen and (max-width: 480px) {
+    .insta_box{
+        position: relative;
+        top: 10px;
+        width: 150px;
+        height: 60px;
+    }
 }
 
 .insta-message{
     width: 150px;
-    height: 50px;
-    padding-top: 10px; 
-    margin-bottom: 10px;
+    height: 60px;
     z-index: 10;
 }
 
+@media screen and (max-width: 480px) {
+    .insta-message{
+        width: 80px;
+        height: 30px;
+    }
+}
+
 .insta-icon{
-    width: 70px;
-    height : 70px;
-    padding-top: 15px;
+    width: 100px;
+    height : 80px;
+    position: relative;
+    top: 10px;
     z-index: 10;
+}
+
+@media screen and (max-width: 480px) {
+    .insta-icon{
+        width: 60px;
+        height: 50px;
+    }
 }
 
 .section_home-main{
     width: 100%;
     height: 800px;
+    position: relative;
 }
 
 .home_box{
     width: 100%;
     height: 100%;
-    position: relative;
+    position: absolute;
+    top: -30px;
 }
 
 .home-chara{
     position: absolute;
+    top: -30px;
     left: 50%;
     transform: translateX(-50%); 
     z-index: 10;
+}
+
+@media screen and (max-width: 480px) {
+    .home-chara{
+        width: 90%;
+        position: absolute;
+        top: 10px;
+    }
 }
 
 .home-title{
@@ -59,13 +100,27 @@
     z-index: 10;
 }
 
+@media screen and (max-width: 480px) {
+    .home-title{
+        width: 60%;
+        position: absolute;
+        top: 25%;
+    }
+}
+
 .home-moz{
     width: 100%;
-    height: 113%;
+    height: 960px;
     position: absolute;
-    top: -100px;
+    top: -120px;
     background: #F7D7FA;
     z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+    .home-moz{
+        height: 736px;
+    }
 }
 
 .scroll-message{
@@ -78,6 +133,15 @@
     bottom: 10%;
 }
 
+@media screen and (max-width: 480px) {
+    .scroll-message{
+        width: 150px;
+        height: 40px;
+        position: absolute;
+        top: 450px;
+    }
+}
+
 .scroll-icon{
     width: 90px;
     height: 50px;
@@ -86,4 +150,13 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 2%; 
+}
+
+@media screen and (max-width: 480px) {
+    .scroll-icon{
+        width: 60px;
+        height: 40px;
+        position: absolute;
+        top: 510px;
+    }
 }
