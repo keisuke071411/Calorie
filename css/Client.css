@@ -1,0 +1,65 @@
+.section_Client{
+    width: 100%;
+    height: 904px;
+    background: #fff;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.section_client-back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    z-index: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.client-back1{
+    width: 30%;
+    height: 20%;
+    margin-bottom: 30px;
+}
+
+.client-back2{
+    width: 40%;
+    height: 30%;
+    margin-bottom: 30px;
+}
+
+.client-back3{
+    width: 70%;
+    height: 30%;
+    margin-bottom: 50px;
+}
+
+.section_Client-box{
+    width: 90%;
+    height: 80%;
+    position: relative;
+    top: 115px;
+    left: 50%;
+    transform: translateX(-50%) ;
+}
+
+.client-desk{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 70px;
+}
+
+.main_client{
+    position: absolute;
+    top: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.client-icon{
+    margin: 0 70px 40px;
+}

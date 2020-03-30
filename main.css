@@ -1,6 +1,8 @@
 @import url("css/home.css");
 @import url("css/app.css");
 @import url("css/message.css");
+@import url("css/Client.css");
+@import url("css/company.css");
 body{
     background: #111;
 }
