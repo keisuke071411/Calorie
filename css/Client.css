@@ -45,11 +45,31 @@
     transform: translateX(-50%) ;
 }
 
+@media screen and (max-width: 480px) {
+    .Client{
+        width: 380px;
+        height: 60px;
+        position: relative;
+        top: -50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .client-desk{
     width: 100%;
     height: 100%;
     position: relative;
     top: 70px;
+}
+
+@media screen and (max-width: 480px) {
+    .main-desk{
+        width: 380px;
+        height: 725px;
+        position: relative;
+        top: -80px;
+    }
 }
 
 .main_client{
@@ -60,6 +80,24 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 480px) {
+    .main_client{
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 .client-icon{
     margin: 0 50px 40px;
 }
+
+@media screen and (max-width: 480px) {
+    .client-icon{
+        width: 300px;
+        height: 100px;
+    }
+}
+

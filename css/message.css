@@ -3,6 +3,8 @@
     height: 904px;
     background: #F7D7FA;
     position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .section_message-catch{

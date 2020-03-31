@@ -51,9 +51,29 @@
     flex-flow: row;
 }
 
+@media screen and (max-width: 480px) {
+    .app-icon{
+        width: 70%;
+        height: 100px;
+        margin-left: 50%;
+        transform: translateX(-50%); 
+        display: flex;
+        flex-flow: row;
+        position: relative;
+        top: -100px;
+    }
+}
+
 .Calorie-app{
     width: 150px;
     height: 150px;
+}
+
+@media screen and (max-width: 480px) {
+    .Calorie-app{
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .catch-copy{
@@ -76,6 +96,14 @@
     margin-left: 100px;
 }
 
+@media screen and (max-width: 480px) {
+    .section_app-message{
+        position: absolute;
+        top: 250px;
+        z-index: 20;
+    }
+}
+
 .app-message{
     width: 100%;
     padding: 10px 0;
@@ -83,10 +111,25 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+@media screen and (max-width: 480px) {
+    .app-message{
+        font-size: 18px;
+
+    }
+}
+
 .section_app-down{
     position: relative;
     top: 100px;
     left: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .section_app-down{
+        position: relative;
+        top: 30px;
+        left: 100px;
+    }
 }
 
 
@@ -100,7 +143,27 @@
     right: 50px;
 }
 
+@media screen and (max-width: 480px) {
+    .section_iphone {
+        width: 50%;
+        height: 50%;
+        float: right;
+        position: absolute;
+        top: 60px;
+        right: 30px;
+        opacity: 0.5;
+        z-index: 0;
+    }
+}
+
 .iphone-icon{
     width: 915px;
     height: 1073px;
+}
+
+@media screen and (max-width: 480px) {
+    .iphone-icon {
+        width: 400px;
+        height: 600px;
+    }
 }
